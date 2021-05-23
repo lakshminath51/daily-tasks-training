@@ -1,0 +1,18 @@
+<p>databinding works!</p>
+
+<h1>Property Binding</h1>
+<p [ngStyle]="{color:colorValue}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam quibusdam amet a perspiciatis assumenda modi. Pariatur at sunt ea.</p>
+<p [ngClass]="colorBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptate deserunt molestias. Fuga quis, ullam delectus aliquid sunt itaque? Deleniti.</p>
+
+<h1>Attribute Binding</h1>
+<p [attr.blueParagraph]="colorBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam nesciunt fuga, incidunt alias tenetur quae odio minus quidem dolorum.</p>
+<p [attr.redParagraph]="colorValue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maiores placeat dicta facere expedita maxime nostrum ducimus architecto quia tempora?</p>
+
+<h1>Event Binding</h1>
+<button (click)="onClick()">Pop up</button>
+<div (mousemove)="mouseonP()">
+    <h6>Displays mouse moving in console</h6>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit alias modi nulla id amet, animi nihil corporis provident hic qui at! Omnis inventore harum obcaecati aperiam, magni dolor laboriosam.</p>
+</div>
+
+<app-attrselectors></app-attrselectors>

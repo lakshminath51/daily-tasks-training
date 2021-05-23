@@ -1,0 +1,26 @@
+<p>employee works!</p>
+
+<hr>
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Address</td>
+        <td>Company</td>
+        <td>Action</td>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>{{employee.id}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.age}}</td>
+        <td>{{employee.address}}</td>
+        <td>{{employee.company}}</td>
+        <td><button class="btn btn-primary" (click)="updateEmployee(employee)">Update</button>
+            <button class="btn btn-danger" (click)="deleteEmployee(employee)">Delete</button>
+        </td>
+    </tr>
+</table>
+<button class="btn btn-success">Button</button>
+
+<!-- <app-databinding></app-databinding> -->

@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "id": 908169,
+      "password": "kishore",
+      "name": "Kishore",
+      "age": 21,
+      "address": "Vijayawada",
+      "company": "CTS"
+    },
+    {
+      "id": 908122,
+      "password": "sai Kalyan",
+      "name": "Sai Kalyan",
+      "address": "VIjayawada",
+      "age": "23",
+      "company": "HCL"
+    },
+    {
+      "id": "908172",
+      "password": "dsbckhfc",
+      "name": "Gangireddy",
+      "address": "kadapa",
+      "age": "22",
+      "company": "CTS"
+    },
+    {
+      "id": "105",
+      "password": "harsha",
+      "name": "harsha123",
+      "address": "mtm",
+      "age": "22",
+      "company": "CTS"
+    }
+  ]
+}
